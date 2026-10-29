@@ -228,36 +228,38 @@ h1.main-title { font-size:clamp(2.2rem,6vw,4rem); font-weight:400; letter-spacin
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: .25rem;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(212,168,67,0.35);
-  border-radius: 18px;
-  padding: .9rem 1.3rem;
+  gap: .3rem;
+  padding: .8rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(8px);
-  box-shadow: 0 0 30px rgba(212,168,67,0.08);
+  box-shadow: 0 0 20px rgba(212, 168, 67, 0.06);
 }
 .love-counter-line {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  gap: .4rem;
+  gap: .45rem;
   flex-wrap: wrap;
   font-family: var(--script);
   color: var(--acc);
 }
 .love-counter-label {
-  font-size: 1rem;
+  font-size: .82rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
   opacity: .9;
 }
 .love-counter-value {
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
   line-height: 1;
   font-weight: 700;
 }
 .love-counter-date {
-  margin-top: .1rem;
-  font-size: .68rem;
-  letter-spacing: .1em;
+  margin-top: .08rem;
+  font-size: .58rem;
+  letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--mt);
 }
@@ -380,7 +382,7 @@ footer { text-align:center; padding:2rem 1rem 2.5rem; position:relative; z-index
   .polaroid-title { font-size: 0.9rem; }
   nav#adminNav { flex-direction: column; gap: .3rem; }
   .btn-nav { width: 100%; }
-  .love-counter { padding: .75rem 1rem; }
+  .love-counter { padding: .7rem 1rem; }
 }
 </style>
 </head>
@@ -456,7 +458,7 @@ footer { text-align:center; padding:2rem 1rem 2.5rem; position:relative; z-index
         <div class="love-counter-line">
           <span class="love-counter-label">Te amo há</span>
           <span class="love-counter-value" id="loveCounter">0</span>
-          <span class="love-counter-label">dias</span>
+          <span class="love-counter-label">dias, meu amor</span>
         </div>
         <div class="love-counter-date">desde 28 de setembro de 2025</div>
       </div>
